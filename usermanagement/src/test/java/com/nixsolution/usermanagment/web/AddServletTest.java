@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.nixsolution.usermanagment.User;
-import com.nixsolution.usermanagment.web.AddServlet;
+import com.noxolution.usermanagment.web.AddServlet;
 
 public class AddServletTest extends MockServletTestCase {
 

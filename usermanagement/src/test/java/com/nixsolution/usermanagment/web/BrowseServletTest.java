@@ -10,7 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.nixsolution.usermanagment.User;
-import com.nixsolution.usermanagment.web.BrowseServlet;
+import com.noxolution.usermanagment.web.BrowseServlet;
 
 public class BrowseServletTest extends MockServletTestCase {
 

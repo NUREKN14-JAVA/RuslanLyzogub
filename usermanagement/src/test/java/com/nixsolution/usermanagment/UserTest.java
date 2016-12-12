@@ -24,8 +24,8 @@ dateOfBirth = calendar.getTime();
 
 public void testGetFullName() { 
 user.setFirstName("Ruslan"); 
-user.setLastname("Donos"); 
-assertEquals("Ruslan, Lyzogub", user.getFullName()); 
+user.setLastname("Lyzogub"); 
+assertEquals("Lyzogub, Ruslan", user.getFullName()); 
 } 
 public void testGetAge() {
     user.setDateOfBirth(dateOfBirth);

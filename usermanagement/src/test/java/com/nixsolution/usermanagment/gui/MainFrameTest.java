@@ -14,12 +14,12 @@ import javax.swing.JTextField;
 
 import com.mockobjects.dynamic.Mock;
 import com.nixsolution.usermanagment.User;
-import com.nixsolution.usermanagment.db.DaoFactory;
-import com.nixsolution.usermanagment.db.DaoFactoryImpl;
-import com.nixsolution.usermanagment.db.MockDaoFactory;
-import com.nixsolution.usermanagment.db.MockUserDao;
-import com.nixsolution.usermanagment.gui.MainFrame;
-import com.nixsolution.usermanagment.util.Messages;
+import com.noxolution.usermanagment.db.DaoFactory;
+import com.noxolution.usermanagment.db.DaoFactoryImpl;
+import com.noxolution.usermanagment.gui.MainFrame;
+import com.noxolution.usermanagment.util.Messages;
+import com.vladbel.usermanagment.db.MockDaoFactory;
+import com.vladbel.usermanagment.db.MockUserDao;
 
 import junit.extensions.jfcunit.JFCTestCase;
 import junit.extensions.jfcunit.JFCTestHelper;
@@ -163,4 +163,3 @@ public class MainFrameTest extends JFCTestCase {
 	}
 	
 
-}

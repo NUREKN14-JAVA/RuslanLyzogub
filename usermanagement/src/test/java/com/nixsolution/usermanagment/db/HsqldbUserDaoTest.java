@@ -11,10 +11,10 @@ import org.dbunit.dataset.xml.XmlDataSet;
 import org.junit.Test;
 
 import com.nixsolution.usermanagment.User;
-import com.nixsolution.usermanagment.db.ConnectionFactory;
-import com.nixsolution.usermanagment.db.ConnectionFactoryImpl;
-import com.nixsolution.usermanagment.db.DatabaseException;
-import com.nixsolution.usermanagment.db.HsqldbUserDao;
+import com.noxolution.usermanagment.db.ConnectionFactory;
+import com.noxolution.usermanagment.db.ConnectionFactoryImpl;
+import com.noxolution.usermanagment.db.DatabaseException;
+import com.noxolution.usermanagment.db.HsqldbUserDao;
 
 import junit.framework.TestCase;
 
@@ -112,7 +112,7 @@ private ConnectionFactory connectionFactory;
 			user=dao.find(id);
 			java.sql.Date date = new java.sql.Date(user.getDateOfBirth().getTime());
 			
-			assertEquals(user.getFirstName(), "Tom");
+			assertEquals(user.getFirstName(), "Max");
 			assertEquals(user.getLastname(), "Goga");
 			assertEquals(user.getDateOfBirth().toString(),date.toString());
 		}catch (DatabaseException e){

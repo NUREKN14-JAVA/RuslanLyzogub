@@ -7,7 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.nixsolution.usermanagment.User;
-import com.nixsolution.usermanagment.web.EditServlet;
+import com.noxolution.usermanagment.web.EditServlet;
 
 public class EditServletTest extends MockServletTestCase {
 

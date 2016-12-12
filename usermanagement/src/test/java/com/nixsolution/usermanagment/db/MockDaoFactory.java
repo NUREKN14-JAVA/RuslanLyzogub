@@ -1,8 +1,8 @@
 package com.nixsolution.usermanagment.db;
 
 import com.mockobjects.dynamic.Mock;
-import com.nixsolution.usermanagment.db.DaoFactory;
-import com.nixsolution.usermanagment.db.UserDao;
+import com.noxolution.usermanagment.db.DaoFactory;
+import com.noxolution.usermanagment.db.UserDao;
 
 public class MockDaoFactory extends DaoFactory {
 private Mock mockUserDao;

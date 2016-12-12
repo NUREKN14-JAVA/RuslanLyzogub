@@ -1,7 +1,7 @@
 package com.nixsolution.usermanagment.db;
 
-import com.nixsolution.usermanagment.db.DaoFactory;
-import com.nixsolution.usermanagment.db.UserDao;
+import com.noxolution.usermanagment.db.DaoFactory;
+import com.noxolution.usermanagment.db.UserDao;
 
 import junit.framework.TestCase;
 

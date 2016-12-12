@@ -43,11 +43,11 @@
 	    </target>
 	
 	<target name="war.exploded" depends="compile">
-	        <!-- копировать все jsp -->
+	        <!-- копируем все jsp -->
 	        <copy todir="${war-jsp-dir}">
 	            <fileset dir="${main-webapp-dir}"/>
 	        </copy>
-	        <!-- копировать все libs -->
+	        <!-- копируем все libs -->
 	        <copy todir="${war-lib-dir}">
 	            <fileset dir="${lib-dir}">
 	                <include name="hsqldb*.jar"/>
@@ -55,11 +55,11 @@
 	                <include name="standard*.jar"/>
 	            </fileset>
 	        </copy>
-	        <!-- копировать все configs -->
+	        <!-- копируем все configs -->
 	        <copy todir="${war-classes-dir}">
 	            <fileset dir="${main-resources-dir}"/>
 	        </copy>
-	        <!-- копировать все classes -->
+	        <!-- копируем все classes -->
 	        <copy todir="${war-classes-dir}">
 	            <fileset dir="${classes-dir}"/>
 	        </copy>
@@ -98,7 +98,7 @@
 			<pathelement location="${build-dir}"/>
 			</classpath>
 			<formatter type="plain"/>
-			<test name="com.vladbel.usermanagment.UserTest"></test>
+			<test name="com.nixsolution.usermanagment.UserTest"></test>
 	</junit>
 </target>
 </project>

@@ -8,8 +8,8 @@ import org.junit.Test;
 
 import com.mockobjects.dynamic.Mock;
 import com.mockrunner.servlet.BasicServletTestCaseAdapter;
-import com.nixsolution.usermanagment.db.DaoFactory;
 import com.nixsolution.usermanagment.db.MockDaoFactory;
+import com.noxolution.usermanagment.db.DaoFactory;
 
 public abstract class MockServletTestCase extends BasicServletTestCaseAdapter {
 
